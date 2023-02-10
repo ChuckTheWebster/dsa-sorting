@@ -1,3 +1,12 @@
+'use strict';
+
+/** bubbleSort: Sorts elements of an array with bubble sort algorithm
+ *
+ * array: Array
+ *
+ * returns: Same array sorted
+ */
+
 function bubbleSort(array) {
   for (let i = array.length; i > -1; i--) {
     for (let j = 0; j < i - 1; j++) {
